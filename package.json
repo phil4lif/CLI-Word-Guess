@@ -1,0 +1,23 @@
+{
+  "name": "CLI-Word-Guess",
+  "version": "1.0.0",
+  "description": "This is a Command Line Word Guessing Game The completed game should meet the following criteria:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil4lif/CLI-Word-Guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phil4lif/CLI-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/phil4lif/CLI-Word-Guess#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
