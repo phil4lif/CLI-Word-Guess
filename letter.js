@@ -1,4 +1,3 @@
-var inquirer = require("inquirer");
 //Write a constructor Letter that will display a letter if it has been guessed
 //or a blank placeholder for each unguessed letter
 function Letter(name){
@@ -23,4 +22,3 @@ function Letter(name){
 
 
 module.exports = Letter
-module.exports = inquirer
