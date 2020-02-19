@@ -5,8 +5,9 @@ function Letter(name){
     this.name = name;
     this.isGuessed = false
     this.checkGuess = function() {
-        if (name === name){
+        if ("a" === name){
             isGuessed = true;
+            console.log(isGuessed);
         }
     }
     this.display = function() {
@@ -18,7 +19,4 @@ function Letter(name){
 
     }
 }
-
-
-
 module.exports = Letter
