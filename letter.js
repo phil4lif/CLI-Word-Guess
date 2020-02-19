@@ -5,16 +5,19 @@ function Letter(name){
     this.name = name;
     this.isGuessed = false
     this.checkGuess = function() {
-        if ("a" === name){
-            isGuessed = true;
+        if (guess === this.name){
+            this.isGuessed = true;
             console.log(isGuessed);
         }
     }
     this.display = function() {
-        if (isGuessed = true){
+        if (this.name === " "){
+            this.isGuessed = true;
+            return " ";
             //show the letter in it's correct space
         }else{
             //display the blanks space
+            return this.name;
         }
 
     }
