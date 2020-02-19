@@ -2,7 +2,7 @@ var Word = require("./word");
 var inquirer = require("inquirer");
 var Letter = require("./letter");
 //an array of words for the wordGen function to select from
-var randomWord = ["javascript", "materialize", "node", "bootstrap", "firebase"]
+var randomWord = ["javascript", "materialize", "node", "bootstrap", "firebase", "html", "ajax", "github"]
 var alphabetArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var wrongGuess = [];
 var rightGuess = [];
